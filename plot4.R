@@ -6,9 +6,7 @@
 # reconstruct plots which were constructed using the base plotting system
 
 
-#load data from the working directory
-setwd("C:/Users/Johnny/Desktop/coursera/exploratory data analysis/assignment 1")
-
+#loads data from the working directory
 #create a data frame
 data = read.table('household_power_consumption.txt', sep=";", header = TRUE)
 
